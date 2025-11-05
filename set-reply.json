@@ -1,0 +1,26 @@
+{
+  "nodes": [
+    {
+      "parameters": {
+        "keepOnlySet": true,
+        "values": {
+          "string": [
+            {
+              "name": "reply",
+              "value": "={{$json[\"content\"][\"parts\"][0][\"text\"]}}"
+            }
+          ]
+        },
+        "options": {}
+      },
+      "id": "SetReplyNode",
+      "name": "Set Reply",
+      "type": "n8n-nodes-base.set",
+      "typeVersion": 2,
+      "position": [
+        800,
+        300
+      ]
+    }
+  ]
+}
